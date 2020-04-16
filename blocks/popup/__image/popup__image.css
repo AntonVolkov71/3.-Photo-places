@@ -1,0 +1,9 @@
+.popup__image {
+  margin: 0;
+  display: block;
+  height: auto;
+  max-height: inherit;
+  width: auto;
+  max-width: 80vw;
+  border-radius: 10px;
+}
