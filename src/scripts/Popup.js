@@ -1,10 +1,7 @@
 export class Popup {
   constructor(popup) {
     this.popup = popup;
-    // this.link = link;
   }
-
-
 
   open(link) {
     if (link === undefined) {

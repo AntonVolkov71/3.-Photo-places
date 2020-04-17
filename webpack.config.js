@@ -22,35 +22,27 @@ module.exports = {
                 loader: "babel-loader"
             }
         },
-        // {
-        //     test: /\.js$/,
-        //     exclude: /\/node_modules\//,
-        //     use: [
-        //       {
-        //       loader: 'babel-loader',
-        //       options: {
-        //         presets: ['es2015', 'stage-0', 'react']
-        //       }
-        //     }]
-        //   },
         {
-            test: /\.css$/gi,
+            test: /\.css$/,
             use: [
                 (isDev ? 'style-loader' : MiniCssExtractPlugin.loader),
                 'css-loader',
                 'postcss-loader'
             ]
         },
+        
         {
-            test: /\.(png|jpg|gif|ico|svg)$/,
+            test: /\.(png|jpg|gif|svg)$/,
             use: [
-                    'file-loader?name=../images/[name].[ext]', // указали папку, куда складывать изображения
-                    {
-                            loader: 'image-webpack-loader',
-                            options: {}
-                    },
+                {
+                    loader: 'file-loader',
+                    options: {
+                        name: '[path][name].[ext]',
+                        outputPath: 'images/'
+                    }
+                }
             ]
-     },
+        },
         {
             test: /\.(eot|ttf|woff|woff2)$/,
             loader: 'file-loader?name=./vendor/[name].[ext]'
