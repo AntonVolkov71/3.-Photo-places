@@ -1,4 +1,4 @@
-class Api {
+export class Api {
   constructor({ baseUrl, token }) {
     this.url = baseUrl;
     this.token = token;

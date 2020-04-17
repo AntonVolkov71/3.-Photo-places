@@ -1,4 +1,4 @@
-class MessageErrors {
+export class MessageErrors {
   requiredErr(el) {
     const requiredErr = 'Это обязательное поле';
     const span = el.parentElement.querySelector(`#error-${el.name}`);

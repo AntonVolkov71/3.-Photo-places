@@ -1,4 +1,4 @@
-class FormValidator {
+export class FormValidator {
   constructor(form, messageErrors) {
     this.form = form;
     this.validName = true;

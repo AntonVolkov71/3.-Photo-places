@@ -25,4 +25,4 @@ const overlayClose = (el) => el.closest('section').classList.remove('overlay_is-
 
 const confirmReload = () => confirm("Я могу лишь указать дверь. Ты сам должен перезагрузить страницу");
 
-
+export {getLinkView, confirmDelete, likeContext, overlayOpen}

@@ -32,7 +32,6 @@
     <div id="popup-view" class="popup" style="z-index: 100;">
       <div class="popup__content popup-view">
         <img src="./images/close.svg" alt="" class="popup__close">
-        <img src="" alt="" class="popup__image">
       </div>
     </div>
 
@@ -84,15 +83,17 @@
 
   </div>
 
-  <script src='./scripts//Card.js'></script>
+ <!--  <script src='./scripts//Card.js'></script>
   <script src='./scripts//CardList.js'></script>
   <script src='./scripts//Popup.js'></script>
   <script src='./scripts//UserInfo.js'></script>
   <script src='./scripts//FormValidator.js'></script>
   <script src='./scripts//MessageErrors.js'></script>
   <script src='./scripts//Api.js'></script>
-  <script src='./scripts//utils.js'></script>
-  <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+  <script src='./scripts//utils.js'></script>  
+  <script type="module" src="./index.js"></script> -->
+
+  <script type="module" src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 </body>
 
 </html>

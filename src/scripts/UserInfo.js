@@ -1,5 +1,5 @@
 // значения input в popup
-class UserInfo {
+export class UserInfo {
   constructor({ form, api }) {
     this.form = form;
     this.api = api;

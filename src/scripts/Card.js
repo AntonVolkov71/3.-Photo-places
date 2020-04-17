@@ -1,4 +1,4 @@
-class Card {
+export class Card {
   constructor(myId) {
     this.myId = myId;
   }
