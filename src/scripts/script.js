@@ -9,8 +9,8 @@ import {getLinkView, confirmDelete, likeContext, overlayOpen} from "./utils.js";
 
 (() => {
 
+  const url = NODE_ENV === 'development' ? 'http://praktikum.tk/' : 'https://praktikum.tk/'
   const token = 'f1834465-ef09-4754-acd2-62c7d534b0bf';
-  const url = 'https://praktikum.tk/';
   const myCohort = '9';
   const myId = '7a8de0f53bb186f6ee28fdb8';
   const placesList = document.querySelector('.places-list');
