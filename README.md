@@ -1,6 +1,6 @@
 ## README
 [Октрыть сайт](https://antonvolkov71.github.io/3.-Mesto/)
-##### Version 0.0.2
+##### Version 0.0.1
 <br>
 <h2 align='center'>
   <strong>"Mesto"</strong>  
