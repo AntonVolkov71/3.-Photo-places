@@ -1,7 +1,0 @@
-@import url(./__button.css);
-
-.profile {
-  min-height: 300px;
-  display: flex;
-  align-items: center;
-}

@@ -1,0 +1,9 @@
+.root .popup-view {
+  width: auto;
+  min-height: 10px;
+  height: max-content;
+  background-color: transparent;
+  box-sizing: content-box;
+  padding: 0;
+  max-height: 80vh;
+}

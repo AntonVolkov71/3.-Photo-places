@@ -1,8 +1,0 @@
-.place-card__blockLike {
-    display: flex;
-    flex-direction: column;
-    height: 37px;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-}
