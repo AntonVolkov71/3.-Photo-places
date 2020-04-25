@@ -1,5 +1,5 @@
 ## README
-[Октрыть сайт](https://antonvolkov71.github.io/3.-Mesto/)
+[Октрыть сайт](https://antonvolkov71.github.io/3.-Photo-places/)
 ##### Version 0.0.1
 <br>
 <h2 align='center'>
